@@ -99,12 +99,12 @@ body{
 }
 
 .movie {
-    width: 11rem;
+    width: 11.5rem;
     height: auto;
     margin: 1rem;
     border-radius: 3px;
     box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
-    background-color: var(--secondary-color);
+    background-color: #08102F;
     position:relative;
     overflow: hidden; 
 }
@@ -124,6 +124,7 @@ body{
 
 .movie-info h3{
     margin-top: 0;
+    font-size: 1em;
 }
 
 .movie-info span{
@@ -131,6 +132,7 @@ body{
     padding: 0.25rem 0.5rem;
     border-radius: 3px;
     font-weight: bold;
+    font-size: 0.7em;
 }
 
 .movie-info span.green{
